@@ -3,6 +3,7 @@ package com.example.weather.ui.model
 data class CityWeather (
     val name: String,
     val weather: String,
+    val weatherEmote: Int,
     val tempCelsius: Double,
     val humidity: Int,
     val windKMH: Int,
