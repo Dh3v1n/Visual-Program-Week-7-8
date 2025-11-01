@@ -98,7 +98,7 @@ fun WeatherInfo(cityWeather: CityWeather) {
             }
             Column {
                 Image(
-                    painter = painterResource(cityWeather.weatherEmote),
+                    painter = painterResource(),
                     "icon",
                     modifier = Modifier
                         .size(150.dp)
